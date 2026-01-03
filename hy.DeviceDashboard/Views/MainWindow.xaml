@@ -1,0 +1,22 @@
+﻿<Window x:Class="hy.DeviceDashboard.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hy.DeviceDashboard"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="生产车间设备监测仪表板" Height="700" Width="1300">
+    <WindowChrome.WindowChrome>
+        <WindowChrome NonClientFrameEdges="None" UseAeroCaptionButtons="False"/>
+    </WindowChrome.WindowChrome>
+    <Window.Background>
+        <RadialGradientBrush Center="1, 0.1" GradientOrigin="1, 0.1" RadiusX="0.9" RadiusY="0.9">
+            <GradientStop Color="#FF0F4D86" Offset="-1.5"/>
+            <GradientStop Color="#010C1D" Offset="2"/>
+        </RadialGradientBrush>
+    </Window.Background>
+    <Grid>
+
+    </Grid>
+</Window>
